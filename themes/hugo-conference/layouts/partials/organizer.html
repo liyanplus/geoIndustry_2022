@@ -25,3 +25,17 @@
   {{ end }}
 </tbody>
 </table>
+
+<h5>Webmasters</h5>
+
+<table class="tg">
+<thead>
+</thead>
+<tbody>
+  {{ range $webmaster_index, $webmaster := .organizer.webmaster }}
+  <td class="tg-r3w3">{{ $webmaster }}</td>
+  <!-- Control the number of columns per row -->
+    {{ if  eq (mod $webmaster_index 2) 1 }}<tr></tr>{{ end }}
+  {{ end }}
+</tbody>
+</table>

@@ -11,8 +11,8 @@ params:
   Description: "International Workshop on Spatial Big Data and AI for Industrial Applications@ACM SIGSPATIAL 2022"
   Date: "November 2, 2022, Pacific Standard Time"
   # Price: "Only $100" # If your event is free, just comment this line
-  Venue: "Online"
-  Address: "Online"
+  Venue: "Seattle Marriott Waterfront"
+  Address: "2100 Alaskan Way"
   City:  "Seattle"
   State: "WA"
   Images: ["/img/logo.png"]
@@ -34,9 +34,9 @@ params:
   Titles:
     intro: "About"
     location: "Location"
-    cfp: "Call For Tutorials"
+    cfp: "Call For Papers"
     organizer: "Organization Committee"
-    speakers: "Invited Tutorial"
+    speakers: "Invited Talk"
     schedule: "Schedule"
     deadline: "Important Dates"
     # sponsors: "Sponsors"
@@ -77,6 +77,7 @@ params:
     "Heba Aly (Amazon)", 
     "Jia Yu (Washington State University, Apache Software Foundation)"]
     pc_member: []
+    webmaster: ["Yan Li (Amazon)"]
 
   deadline:
     submission: "August 3, 2022 (anywhere on earth)"
