@@ -23,7 +23,7 @@ params:
   Sections:
     - intro
     - organizer
-    - speakers
+    # - speakers
     - schedule    
     - location
     - cfp
@@ -36,7 +36,7 @@ params:
     location: "Location"
     cfp: "Call For Papers"
     organizer: "Organization Committee"
-    speakers: "Invited Talk"
+    # speakers: "Invited Talk"
     schedule: "Schedule"
     deadline: "Important Dates"
     # sponsors: "Sponsors"
@@ -68,35 +68,22 @@ params:
 
   cfp:
     text: ""
-    url: ""
+    url: "files/CFP22_GeoIndustry.pdf"
     keywords: [""]
 
   organizer:
     pc_chair: ["Emre Eftelioglu (Amazon)",
-    "Yiqun Xie (University of Maryland)",
     "Heba Aly (Amazon)", 
+    "Yiqun Xie (University of Maryland)",
     "Jia Yu (Washington State University, Apache Software Foundation)"]
-    pc_member: []
+    pc_member: ["TBA"]
     webmaster: ["Yan Li (Amazon)"]
 
   deadline:
-    submission: "August 3, 2022 (anywhere on earth)"
-    notification: "September 25, 2022 (anywhere on earth)"
-    camera: "October 10, 2022 (anywhere on earth)"
+    submission: "August 31, 2022 (anywhere on earth)"
+    notification: "September 14, 2022 (anywhere on earth)"
     workshopdate: "November 2, 2022"
     submissionsite: "https://easychair.org/my/conference?conf=geoindustry22"
 
-  Speakers: 
-    # - name: "James Kyle, Jeff Ho, Eugene Chong, Michael Grazziani"
-    #   photo: "https://assets-global.website-files.com/5baafc2653bd67278f206724/5e71e3904626f11bd4f00ea5_safegraph-logo.svg"
-    #   company: "SafeGraph"
-    #   talk: 
-    #     title: "Understand Consumer Behavior With Verified Foot Traffic Data"
-    #     href: "https://www.safegraph.com/events/safegraph-sigspatial-2021"
-    #     abstract: "Our workshop’s objective is to provide professionals, researchers, and practitioners interested in deriving human movement patterns from location data. We use a sample of our Weekly and Monthly Patterns and Core Places products to perform market research on a potential new coffee shop location. How far are customers willing to travel for coffee? What location will receive the most visibility? Where do most of the coffee customers come from? We’ll address these concerns and more in building a market analysis proposal in real time."
-      # link:
-      #   twitter: "http://twitter.com/linus"
-      #   github: "http://github.com/linus"
-      #   linkedin: "http://linkedin.com/linus"
-
   schedule:
+

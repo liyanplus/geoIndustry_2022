@@ -3,7 +3,7 @@
    ========================================================================== */
 * {
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   list-style: none;
   border: 0;
   text-decoration: none;
@@ -147,6 +147,14 @@ nav ol {
   list-style-image: none;
   margin: 0;
   padding: 0;
+}
+.cfp_topic {
+  column-count: 2;
+  margin: 20;
+  padding: 20;
+}
+.cfp_topic_item {
+  list-style: square;
 }
 img {
   border: 0;
