@@ -710,7 +710,7 @@ nav {
    MAIN LAYOUT
    ========================================================================== */
 html {
-  background: #ed7c31;
+  background: #d5d5e5;
   font: normal normal 10px/1.2em helvetica, arial, sans-serif;
   color: #777;
 }
@@ -753,7 +753,7 @@ nav {
 .logo-link,
 .tagline,
 .call-action-area .price {
-  color: #000;
+  color: rgb(255, 255, 255);
   text-shadow: 1px 20px 10px rgba(0, 0, 0, 0.3);
 }
 .tagline {
@@ -787,11 +787,11 @@ nav {
    CONTENT
    ========================================================================== */
 .content a {
-  color: #f0a303;
+  color: #6682b5;
 }
 .content a:hover,
 .content a:focus {
-  color: #fddd52;
+  color: #084c8d;
   text-decoration: underline;
 }
 /* =============================================================================
