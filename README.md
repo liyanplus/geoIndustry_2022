@@ -13,7 +13,7 @@
 Everytime when you change a place, Hugo will automatically refresh your browser.
 
 1. Change the concent in "about": Edit `themes/hugo-conference/layouts/partials/about.html`
-2. Change the cover image: replace `static/img/cover.jpg`
+2. Change the cover image: replace `static/img/cover.jpg`. Image by <a href="https://pixabay.com/users/allycatfoxtrot-2501257/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3465797">Ally Laws</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3465797">Pixabay</a>.
 3. Change all other content: Edit `config.yml`
 
 
