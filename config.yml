@@ -9,7 +9,7 @@ params:
   # Conference info
   Name: "GeoIndustry@ACM SIGSPATIAL 2022"
   Description: "International Workshop on Spatial Big Data and AI for Industrial Applications@ACM SIGSPATIAL 2022"
-  Date: "November 2, 2022, Pacific Standard Time"
+  Date: "November 1, 2022, Pacific Standard Time"
   # Price: "Only $100" # If your event is free, just comment this line
   Venue: "Seattle Marriott Waterfront"
   Address: "2100 Alaskan Way"
@@ -68,7 +68,7 @@ params:
 
   cfp:
     text: ""
-    url: "files/CFP22_GeoIndustry.pdf"
+    url: "files/CFP22_GeoIndustry_SIGSPATIAL.pdf"
     keywords: [""]
 
   organizer:
@@ -82,7 +82,7 @@ params:
   deadline:
     submission: "August 31, 2022 (anywhere on earth)"
     notification: "September 14, 2022 (anywhere on earth)"
-    workshopdate: "November 2, 2022"
+    workshopdate: "November 1, 2022"
     submissionsite: "https://easychair.org/my/conference?conf=geoindustry22"
 
   schedule:
