@@ -76,7 +76,10 @@ params:
     "Heba Aly (Amazon)", 
     "Yiqun Xie (University of Maryland)",
     "Jia Yu (Washington State University, Apache Software Foundation)"]
-    pc_member: ["TBA"]
+    pc_member: ["Ravi Garg (Amazon)",
+    "Xiaowei Jia (University of Pittsburgh)",
+    "Zhe Jiang (University of Florida)",
+    "Xun Tang (Meta)"]
     webmaster: ["Yan Li (Amazon)"]
 
   deadline:
