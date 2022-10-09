@@ -85,6 +85,7 @@ params:
   deadline:
     submission: "September 16, 2022 (anywhere on earth, extended)"
     notification: "September 28, 2022 (anywhere on earth)"
+    camera: "October 10, 2022 (anywhere on earth)"
     workshopdate: "November 1, 2022"
     submissionsite: "https://easychair.org/my/conference?conf=geoindustry22"
 
