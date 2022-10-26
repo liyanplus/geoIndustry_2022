@@ -1,8 +1,7 @@
 
 <div class="schedule-tbl">
 <h2 class="section-title">{{ .titles.schedule }}</h2>
-
-    <p>TBA</p>
+<p>Tuesday, November 1, 2022 - Seattle, Washington, USA </p>
 <!-- <p>Please read the preparation steps listed in each tutorial proposal to download or install necessary data and software.</p> -->
 
 <!-- <p><img width="100" src="https://sigspatial2021.sigspatial.org/images/buttons/zoom.png">: <a href="https://acm-org.zoom.us/j/97413030964">https://acm-org.zoom.us/j/97413030964</a> Passcode: <img src="images/code.png" width="100"></p>
@@ -21,7 +20,7 @@
         <th class="schedule-slot">Title</th>
         <!-- <th class="schedule-description">Abstract</th> -->
         <!-- <th class="schedule-time">Preparation and proposal</th> -->
-        <th class="schedule-pdf">Recording</th>
+        <!-- <th class="schedule-pdf">Recording</th> -->
       </tr>
     </thead>
     <tbody>
@@ -29,12 +28,11 @@
         <tr class="schedule-other">
           <td class="schedule-time">{{ .time }}</td>
           <!-- <td class="schedule-time">{{ .duration }}</td> -->
-          <td class="schedule-slot">{{ .title }} <br><br>  {{ .authors }} <br><br> {{ if ne .file nil }}
-          Preparation:  <a href="./files/{{ .file }}">PDF</a> {{ else }} <a href="{{ .prep }}">{{ .prep }}</a> {{ end }} </td>
+          <td class="schedule-slot">{{ .title }} <br><br>  {{ .authors }} <br></td>
           <!-- <td class="schedule-description">{{ .abstract }}</td> -->
           <!-- <td class="schedule-time"> {{ if ne .file nil }}
             <a href="./files/{{ .file }}">PDF</a> {{ else }} {{ .prep }} {{ end }}</td> -->
-          <td class="schedule-pdf"><iframe width="500" height="250" src="{{ .video }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+          <!-- <td class="schedule-pdf"><iframe width="500" height="250" src="{{ .video }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td> -->
         </tr>
       {{ end }}
     </tbody>

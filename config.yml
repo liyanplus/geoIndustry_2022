@@ -47,7 +47,7 @@ params:
   # If you don't want this, just remove the callToAction property.
   CallToAction:
     text: "Register now"
-    link: ""
+    link: "https://sigspatial2022.sigspatial.org/registration/"
 
   intro:
     text: "With the rapid revolution and increasing availability of geospatial data, not only academia but also industry aspire 
@@ -90,4 +90,27 @@ params:
     submissionsite: "https://easychair.org/my/conference?conf=geoindustry22"
 
   schedule:
-
+    - time: "09:00 - 09:10"
+      title: "Opening Remarks"
+    - time: "09:10 - 10:10"
+      authors: "Dr. John Krumm"
+      title: "Keynote Talk" 
+    - time: "10:10 - 10:30"
+      title: "BinoML: Supervised Ranking for Automatic Building Labeling"
+      authors: "Puyang Ma, Ravi Garg, Mohamed Moustafa"
+      abstract: ""
+    - time: "10:30 - 10:50"
+      authors: "Coffee Break"
+    - time: "10:50 - 11:10"
+      title: "Toward a crowdsourcing solution to estimate border crossing times using market-available connected vehicle data"
+      authors: "Ehsan Jalilifar, Xiao Li, Michael Martin, Xiao Huang"
+    - time: "11:10 - 11:30"
+      title: "A Study on Singapore’s Vegetation Cover and Land Use Change Using Remote Sensing"
+      authors: "Yun Si Goh, Jing Wen Leong, Seanglidet Yean, Bu-Sung Lee, Kang Min Ngo, Peter Edwards"
+    - time: "11:30 - 11:50"
+      authors: "Break"
+    - time: "11:50 - 12:50"
+      authors: "Dr. Dieter Pfoser"
+      title: "Keynote Talk" 
+    - time: "12:50 - 13:00"
+      title: "Closing Remarks"
