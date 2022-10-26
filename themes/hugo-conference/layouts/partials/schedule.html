@@ -28,7 +28,9 @@
         <tr class="schedule-other">
           <td class="schedule-time">{{ .time }}</td>
           <!-- <td class="schedule-time">{{ .duration }}</td> -->
-          <td class="schedule-slot">{{ .title }} <br><br>  {{ .authors }} <br></td>
+          <td class="schedule-slot"><b>{{ .title }}</b><br><br> <i>{{ .authors }}</i>  <br><br> 
+            {{ if ne .abstract nil }} <b>Abstract: </b> {{ .abstract }} {{end}}
+          </td>
           <!-- <td class="schedule-description">{{ .abstract }}</td> -->
           <!-- <td class="schedule-time"> {{ if ne .file nil }}
             <a href="./files/{{ .file }}">PDF</a> {{ else }} {{ .prep }} {{ end }}</td> -->

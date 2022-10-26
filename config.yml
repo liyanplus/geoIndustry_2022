@@ -94,11 +94,18 @@ params:
       title: "Opening Remarks"
     - time: "09:10 - 10:10"
       authors: "Dr. John Krumm (Microsoft Research)"
-      title: "Keynote Talk" 
+      title: "Valuing Personal Location Data (Keynote Talk)" 
+      abstract: "Abstract: The whereabouts of regular people from their everyday lives is valuable, both to the people 
+      themselves and to organizations that want to learn more about them. And yet the precise value of this 
+      data is difficult to pinpoint, both in the minds of the data subjects and the accounting of the data 
+      collectors. From the subject’s point of view, is differential privacy the answer? What would motivate 
+      a subject to release their data? What if they want to release just a vague idea of their location? From 
+      the data collector’s point of view, how can they put a price on location data and decide which data 
+      to buy? How do they know when they have enough? This talk will explore these questions, highlighting 
+      some of our lab’s research toward clarifying how to protect and value everyday location data."
     - time: "10:10 - 10:30"
       title: "BinoML: Supervised Ranking for Automatic Building Labeling"
       authors: "Puyang Ma, Ravi Garg, Mohamed Moustafa"
-      abstract: ""
     - time: "10:30 - 10:50"
       title: "Coffee Break"
     - time: "10:50 - 11:10"
