@@ -95,7 +95,7 @@ params:
     - time: "09:10 - 10:10"
       authors: "Dr. John Krumm (Microsoft Research)"
       title: "Valuing Personal Location Data (Keynote Talk)" 
-      abstract: "Abstract: The whereabouts of regular people from their everyday lives is valuable, both to the people 
+      abstract: "The whereabouts of regular people from their everyday lives is valuable, both to the people 
       themselves and to organizations that want to learn more about them. And yet the precise value of this 
       data is difficult to pinpoint, both in the minds of the data subjects and the accounting of the data 
       collectors. From the subject’s point of view, is differential privacy the answer? What would motivate 
@@ -118,6 +118,16 @@ params:
       title: "Break"
     - time: "11:50 - 12:50"
       authors: "Dr. Dieter Pfoser (George Mason University)"
-      title: "Keynote Talk" 
+      title: "Geospatial research questions - simple observations and solutions (Keynote Talk)" 
+      abstract: "Why is spatial special? One answer could be that interesting geospatial research is guided by our 
+      experiences in the physical world. This talk will look at three cases from my personal research trajectory that were 
+      triggered by interesting observations and hopefully resulted in meaningful insights. The first case relates to the 
+      emergence of GPS devices and how this technology allowed us to record activities. We will discuss research for 
+      extracting knowledge from collected spatiotemporal data, e.g., map construction algorithms, as well as open problems. 
+      The second case looks at crowdsourcing and engaging internet users in (geospatial) data generation. Crowdsourcing had 
+      a profound impact on the geospatial world and we will look at geocoded image data and what it can tell us about places. 
+      The third case relates to scenarios in which a lot of data is actually not enough and how modeling and simulation can 
+      be used as a complement. The talk concludes with discussing important research challenges in data-poor scenarios, such 
+      as data privacy & crowdsourcing and indoor environments."
     - time: "12:50 - 13:00"
       title: "Closing Remarks"
